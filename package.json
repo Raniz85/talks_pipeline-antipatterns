@@ -1,0 +1,22 @@
+{
+  "name": "pipeline-antipatterns",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "^1.1.64",
+    "@slidev/cli": "^0.48.8",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.21"
+  },
+  "dependenciesMeta": {
+    "@slidev/cli@0.48.8": {
+      "unplugged": true
+    }
+  }
+}
