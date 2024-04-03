@@ -77,6 +77,49 @@ v-6.4h-6a77 77 0 0 1-6.3-.2c-.3-.1-.4-.9-.4-6.3 0-4.8 0-6.2-.3-6.1l-1.3.4ZM43.9 
 
 </v-clicks>
 
+---
+
+# Antipattern 1: The One Pipeline
+## One pipeline to rule them all
+
+---
+
+# Antipattern 2: 
+## Running all steps all the time
+
+---
+
+# Antipattern 2: Hoarding
+## Keeping all artifacts forever
+
+---
+
+# Antipattern 3: Giftwrapping
+## Using wrapper tasks to execute command line tools
+
+---
+
+# Antipattern 4: Groundhog day
+## Starting from scratch all the time
+
+---
+
+# Antipattern 5: Interference
+## Colliding with other pipelines
+
+---
+
+# Antipattern 6: 
+## Not failing fast enough
+
+---
+
+# Antipattern 7: It's complicated
+## Pipeline that can't be run locally
+
+---
+
+# Pattern 
 
 ---
 layout: intro
