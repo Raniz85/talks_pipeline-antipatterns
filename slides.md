@@ -13,7 +13,7 @@ css: unocss
 layout: intro
 ---
 
-# Pipeline patterns and antipatterns
+# Pipeline patterns and anti-patterns
 ## Things your pipeline should (not) do
 
 <div class="text-black">
@@ -78,48 +78,84 @@ v-6.4h-6a77 77 0 0 1-6.3-.2c-.3-.1-.4-.9-.4-6.3 0-4.8 0-6.2-.3-6.1l-1.3.4ZM43.9 
 </v-clicks>
 
 ---
+layout: cover
+background: images/the-one-pipeline.webp
+---
+<AntiPattern :num="1" />
 
-# Antipattern 1: The One Pipeline
+# The One Pipeline
 ## One pipeline to rule them all
 
 ---
+layout: cover
+background: images/waiting.jpg
+---
+<AntiPattern :num="2" />
 
-# Antipattern 2: 
-## Running all steps all the time
+# The Fastidious
+## Doing everything all the time
 
 ---
+layout: cover
+background: images/waiting.jpg
+---
+<AntiPattern :num="3" />
 
-# Antipattern 2: Hoarding
+# Hoarding
 ## Keeping all artifacts forever
 
 ---
+layout: cover
+background: images/wrapped.jpg
+---
+<AntiPattern :num="4" />
 
-# Antipattern 3: Giftwrapping
+# Gift wrapping
 ## Using wrapper tasks to execute command line tools
 
----
+<Attribution>
+Kira ouf der Heide via Unsplash
+</Attribution>
 
-# Antipattern 4: Groundhog day
+---
+layout: cover
+background: images/waiting.jpg
+---
+<AntiPattern :num="5" />
+
+# Groundhog day
 ## Starting from scratch all the time
 
 ---
+layout: cover
+background: images/waiting.jpg
+---
+<AntiPattern :num="6" />
 
-# Antipattern 5: Interference
+# Interference
 ## Colliding with other pipelines
 
 ---
+layout: cover
+background: images/waiting.jpg
+---
+<AntiPattern :num="7" />
 
-# Antipattern 6: 
+# The waiting game
 ## Not failing fast enough
 
+<Attribution>
+Magnet.me via Unsplash
+</Attribution>
+
 ---
-
-# Antipattern 7: It's complicated
-## Pipeline that can't be run locally
-
+layout: cover
+background: images/waiting.jpg
 ---
+<AntiPattern :num="8" />
 
-# Pattern 
+# It's complicated
+## Can't replicate the pipeline locally
 
 ---
 layout: intro
