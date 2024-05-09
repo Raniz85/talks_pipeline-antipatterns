@@ -5815,6 +5815,7 @@ __metadata:
     "@slidev/cli": ^0.48.8
     "@slidev/theme-default": latest
     "@slidev/theme-seriph": latest
+    svg2roughjs: ^3.2.0
     vue: ^3.4.21
   dependenciesMeta:
     "@slidev/cli@0.48.8":
@@ -6164,7 +6165,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"roughjs@npm:^4.6.6":
+"roughjs@npm:^4.6.5, roughjs@npm:^4.6.6":
   version: 4.6.6
   resolution: "roughjs@npm:4.6.6"
   dependencies:
@@ -6512,10 +6513,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"svg-pathdata@npm:^6.0.3":
+  version: 6.0.3
+  resolution: "svg-pathdata@npm:6.0.3"
+  checksum: f0e55be50c654be5d259d70945ed7e5354bf78e51c6039b4045d9f7c49d703a0c33dda36751815aec2824d046c417c35226e7491246ffff3e9164735ea428446
+  languageName: node
+  linkType: hard
+
 "svg-tags@npm:^1.0.0":
   version: 1.0.0
   resolution: "svg-tags@npm:1.0.0"
   checksum: 407e5ef87cfa2fb81c61d738081c2decd022ce13b922d035b214b49810630bf5d1409255a4beb3a940b77b32f6957806deff16f1bf0ce1ab11c7a184115a0b7f
+  languageName: node
+  linkType: hard
+
+"svg2roughjs@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "svg2roughjs@npm:3.2.0"
+  dependencies:
+    roughjs: ^4.6.5
+    svg-pathdata: ^6.0.3
+    tinycolor2: ^1.6.0
+  checksum: 07337b62db03855cb86693f394163f9e8233958c4b11a56eea69feb2eaa54a5374349bff8a911ed5f305fea31ba2a932a0a502ab4bd03533a3fe402e52630975
   languageName: node
   linkType: hard
 
@@ -6530,6 +6549,13 @@ __metadata:
     mkdirp: ^1.0.3
     yallist: ^4.0.0
   checksum: f1322768c9741a25356c11373bce918483f40fa9a25c69c59410c8a1247632487edef5fe76c5f12ac51a6356d2f1829e96d2bc34098668a2fc34d76050ac2b6c
+  languageName: node
+  linkType: hard
+
+"tinycolor2@npm:^1.6.0":
+  version: 1.6.0
+  resolution: "tinycolor2@npm:1.6.0"
+  checksum: 6df4d07fceeedc0a878d7bac47e2cd47c1ceeb1078340a9eb8a295bc0651e17c750f73d47b3028d829f30b85c15e0572c0fd4142083e4c21a30a597e47f47230
   languageName: node
   linkType: hard
 

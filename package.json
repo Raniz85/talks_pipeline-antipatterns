@@ -12,6 +12,7 @@
     "@slidev/cli": "^0.48.8",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "svg2roughjs": "^3.2.0",
     "vue": "^3.4.21"
   },
   "dependenciesMeta": {

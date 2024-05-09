@@ -1,0 +1,16 @@
+ul.pros, ul.cons {
+    list-style: none;
+    padding: 0px;
+    li {
+        margin: 0;
+        padding: 0;
+    }
+}
+ul.pros li:before {
+    content: '+';
+    margin: 0 1em;
+}
+ul.cons li:before {
+    content: '-';
+    margin: 0 1em;
+}
