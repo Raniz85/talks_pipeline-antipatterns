@@ -39,9 +39,9 @@
   "homepage": "https://sli.dev",
   "bugs": "https://github.com/slidevjs/themes/issues",
   "dependencies": {
-    "@slidev/types": "^0.22.7",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.2",
-    "theme-vitesse": "^0.1.12"
+    "@slidev/types": "^0.49.0-beta.1",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.7.8"
   }
 }

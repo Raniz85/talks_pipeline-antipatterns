@@ -9,7 +9,7 @@
   }
 
   h1 + p {
-    @apply -mt-2 opacity-50 mb-4;
+    @apply -mt-2 mb-4;
   }
 
   p + h2, ul + h2, table + h2 {
@@ -45,8 +45,8 @@
   }
 }
 
-.slidev-layout.cover,
-.slidev-layout.intro {
+.slidev-layout > .cover,
+.slidev-layout > .intro {
   @apply h-full grid;
 
   h1 {
@@ -54,7 +54,7 @@
   }
 }
 
-.slidev-layout.cover {
+.slidev-layout > .cover {
 
   h1 {
     color: inherit;
@@ -64,7 +64,7 @@
   }
 }
 
-.slidev-layout.fact {
+.slidev-layout > .fact {
   @apply text-center grid h-full;
   h1 {
     @apply text-8xl font-700;
@@ -74,7 +74,7 @@
   }
 }
 
-.slidev-layout.statement {
+.slidev-layout > .statement {
   @apply text-center grid h-full;
 
   h1 {
@@ -82,7 +82,7 @@
   }
 }
 
-.slidev-layout.quote {
+.slidev-layout > .quote {
   @apply grid h-full;
 
   h1 + p {
@@ -90,7 +90,7 @@
   }
 }
 
-.slidev-layout.section {
+.slidev-layout > .section {
   h1 {
     @apply text-6xl font-500 leading-20;
   }
