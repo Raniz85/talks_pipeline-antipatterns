@@ -99,15 +99,15 @@ layout: custom
 ---
 
 <div class="grid grid-cols-3 grid-gap-10px justify-items-center align-items-center text-center absolute top-20px left-20px w-940px h-512px">
-    <img class="max-h-160px" src="images/ritual.jpg" />
-    <img class="max-h-160px" src="images/hoarding.jpg" />
-    <img class="max-h-160px" src="images/ordered.jpg" />
-    <img class="max-h-160px" src="images/the-one-pipeline.webp" />
-    <img class="max-h-160px" src="images/wrapped.jpg" />
-    <img class="max-h-160px" src="images/complicated.webp" />
-    <img class="max-h-160px" src="images/restarting.jpg" />
-    <img class="max-h-160px" src="images/interference.jpg" />
-    <img class="max-h-160px" src="images/underpowered.jpg" />
+    <img class="max-h-160px" src="/images/ritual.jpg" />
+    <img class="max-h-160px" src="/images/hoarding.jpg" />
+    <img class="max-h-160px" src="/images/ordered.jpg" />
+    <img class="max-h-160px" src="/images/the-one-pipeline.webp" />
+    <img class="max-h-160px" src="/images/wrapped.jpg" />
+    <img class="max-h-160px" src="/images/complicated.webp" />
+    <img class="max-h-160px" src="/images/restarting.jpg" />
+    <img class="max-h-160px" src="/images/interference.jpg" />
+    <img class="max-h-160px" src="/images/underpowered.jpg" />
 </div>
 
 
