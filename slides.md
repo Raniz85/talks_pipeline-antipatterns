@@ -70,13 +70,13 @@ src: ./pages/the-aesthete.md
 src: ./pages/the-one-pipeline.md
 ---
 
----
-src: ./pages/gift-wrapping.md
----
+#---
+#src: ./pages/gift-wrapping.md
+#---
 
----
-src: ./pages/complicated.md
----
+#---
+#src: ./pages/complicated.md
+#---
 
 ---
 src: ./pages/groundhog-day.md
@@ -103,8 +103,8 @@ layout: custom
     <img class="max-h-160px" src="/images/hoarding.jpg" />
     <img class="max-h-160px" src="/images/ordered.jpg" />
     <img class="max-h-160px" src="/images/the-one-pipeline.webp" />
-    <img class="max-h-160px" src="/images/wrapped.jpg" />
-    <img class="max-h-160px" src="/images/complicated.webp" />
+    <!--<img class="max-h-160px" src="/images/wrapped.jpg" />-->
+    <!--<img class="max-h-160px" src="/images/complicated.webp" />-->
     <img class="max-h-160px" src="/images/restarting.jpg" />
     <img class="max-h-160px" src="/images/interference.jpg" />
     <img class="max-h-160px" src="/images/underpowered.jpg" />
