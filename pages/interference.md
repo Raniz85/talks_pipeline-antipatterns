@@ -61,7 +61,7 @@ block-beta
     space 1f("Frontend") space:2
     1bi("Build Image") 1b("Backend") 1it("Integration tests") space
     space:4
-    space r("image:latest") space:2
+    space r("tooling:latest") space:2
     space:4
     space 2bi("Build Image") 2b("Backend") 2it("Integration tests")
     space:2 2f("Frontend") space
