@@ -90,9 +90,9 @@ src: ./pages/interference.md
 src: ./pages/underpowered.md
 ---
 
----
-src: ./pages/outro.md
----
+#---
+#src: ./pages/outro.md
+#---
 
 ---
 layout: custom
