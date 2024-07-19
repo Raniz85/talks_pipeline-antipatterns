@@ -25,6 +25,7 @@ block-beta
     r-->1it
     
     style r fill: #ff984e
+    style 1it stroke-dasharray: 5 5, fill: #ffffff
 ```
 
 ---
@@ -50,6 +51,8 @@ block-beta
     r-->2it
     
     style r fill: #ff984e
+    classDef pending stroke-dasharray: 5 5, fill: #ffffff
+    class 1it,2b,2f,2it pending
 ```
 ---
 
@@ -61,7 +64,7 @@ block-beta
     space 1f("Frontend") space:2
     1bi("Build Image") 1b("Backend") 1it("Integration tests") space
     space:4
-    space r("image:latest") space:2
+    space r("tooling:latest") space:2
     space:4
     space 2bi("Build Image") 2b("Backend") 2it("Integration tests")
     space:2 2f("Frontend") space
@@ -76,4 +79,6 @@ block-beta
     style r fill: #ff984e
     classDef failed fill: #e49091
     class 1it failed
+    classDef pending stroke-dasharray: 5 5, fill: #ffffff
+    class 2it pending
 ```
