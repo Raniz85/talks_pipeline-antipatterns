@@ -76,3 +76,34 @@ block-beta
 Total time: 32 m 48 s (+7 m 52 s)
 
 -->
+
+---
+layout: center-content
+---
+
+# Pattern #4: Parallel pipelines
+
+::content::
+
+```mermaid { theme: 'forest' }
+block-beta
+    columns 7
+    bs("Backend setup") bl("Backend lint") bc("Backend compile") bt("Backend Tests") ba("Publish Artifact") tb("9 m 28 s") space
+    tbs("33 s") tbl("2 m 42 s") tbc("5 m 14 s") tbt("52 s") tba("7 s") space:2
+    space:5 it("Integration tests") ti("16 m 9 s")
+    space:5 tit("6 m 41 s") space
+    fs("Frontend setup") fl("Frontent lint") fc("Frontend compile") ft("Frontend tests") fa("Publish Artifact") tf("8 m 47 s") space
+    tfs("1 m 8 s") tfl("1 m 53 s") tfc("2 m 12 s") tft("3 m 26s") tfa("8 s") space:2
+    
+    ba --> it
+    fa --> it
+    classDef timing fill: #0000, stroke: #0000
+    class tbs,tbl,tbc,tbt,tb,tba,tfs,tfl,tfc,tft,tf,tfa,tibs,tibc,tifs,tifc,tit,ti timing
+```
+
+<!--
+
+10 minutes saved!
+Total time: 32 m 48 s (+7 m 52 s)
+
+-->
