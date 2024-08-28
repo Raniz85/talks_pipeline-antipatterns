@@ -29,7 +29,7 @@ layout: cover
 background: /images/caching.webp
 ---
 
-<AntiPattern :pattern="'Pattern'" :num="6" />
+<AntiPattern :pattern="'Pattern'" :num="7" />
 
 # Caching
 
@@ -217,7 +217,7 @@ cargo install leptos ~6 minutes
 layout: center-content
 ---
 
-# Pattern #7: Tooling images
+# Pattern #8: Tooling images
 
 ::content::
 
@@ -238,7 +238,7 @@ block-beta
 layout: center-content
 ---
 
-# Pattern #7: Tooling images
+# Pattern #8: Tooling images
 
 ::content::
 
