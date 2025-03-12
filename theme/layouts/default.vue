@@ -1,6 +1,5 @@
 <template>
   <div class="bg-main slidev-layout">
-    <factor10-logo></factor10-logo>
     <slot name="outer"></slot>
     <div :class="props.class">
       <slot />
@@ -13,8 +12,8 @@ import { defineComponent } from 'vue'
 import Factor10Logo from '../components/Factor10Logo.vue'
 
 const components = defineComponent({
-  Factor10Logo,
 })
+
 const props = withDefaults(defineProps<{
   class: string,
 }>(), {
