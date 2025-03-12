@@ -31,6 +31,7 @@ Coding Architect @ factor10
 
 <div class="absolute right-20px top-90px">
     <img width="300" src="/images/about-me-qr.svg" />
+    <div class="w-100% mx-auto text-center">about.me/raniz</div>
 </div>
 
 ---
@@ -177,4 +178,5 @@ Coding Architect @ factor10
 
 <div class="absolute right-20px top-90px">
     <img width="300" src="/images/about-me-qr.svg" />
+    <div class="w-100% mx-auto text-center">about.me/raniz</div>
 </div>
