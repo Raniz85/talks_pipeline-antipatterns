@@ -30,7 +30,7 @@ Coding Architect @ factor10
 </div>
 
 <div class="absolute right-20px top-90px">
-    <img width="300" src="/images/linkedin-qr.png" />
+    <img width="300" src="/images/about-me-qr.svg" />
 </div>
 
 ---
@@ -139,5 +139,5 @@ Coding Architect @ factor10
 </div>
 
 <div class="absolute right-20px top-90px">
-    <img width="300" src="/images/linkedin-qr.png" />
+    <img width="300" src="/images/about-me-qr.svg" />
 </div>
