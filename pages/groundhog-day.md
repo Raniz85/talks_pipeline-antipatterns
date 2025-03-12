@@ -213,6 +213,10 @@ cargo install leptos ~6 minutes
 
 </v-clicks>
 
+<!--
+Installing cargo-leptos usually takes around 6 minutes
+-->
+
 ---
 layout: center-content
 ---
