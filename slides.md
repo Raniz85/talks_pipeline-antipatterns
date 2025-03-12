@@ -30,7 +30,7 @@ Coding Architect @ factor10
 </div>
 
 <div class="absolute right-20px top-90px">
-    <img width="300" src="/images/linkedin-qr.png" />
+    <img width="300" src="/images/about-me-qr.svg" />
 </div>
 
 ---
@@ -40,12 +40,29 @@ attribution: Yogendra Singh via Unsplash
 dim: false
 ---
 
+<!--
+
+We wil try to reduce:
+
+* Frustration
+
+-->
+
 ---
 layout: cover
 background: /images/waiting.jpg
 attribution: Priscilla Du Preez via Unsplash
 dim: false
 ---
+
+<!--
+
+We wil try to reduce:
+
+* Frustration
+* Waiting times/lowered cycle time
+
+-->
 
 ---
 layout: cover
@@ -54,12 +71,32 @@ attribution: Markus Spiske via Unsplash
 dim: false
 ---
 
+<!--
+
+We wil try to reduce:
+
+* Frustration
+* Waiting times/lowered cycle time
+* Climate impact
+
+-->
+
 ---
 layout: cover
 background: /images/elephant.jpg
 attribution: Felix M. Dom via Unsplash
 dim: false
 ---
+
+<!--
+
+Elephant in the room: Everyone is using different platforms with different syntax, feature and terminology.
+This talk tries to be agnostic, examples will be in GitHub Actions YAML when needed, they are very few.
+
+Pipeline -> Job -> Step
+Jobs can be grouped into stages
+
+-->
 
 ---
 src: ./pages/the-ritual.md
@@ -139,5 +176,5 @@ Coding Architect @ factor10
 </div>
 
 <div class="absolute right-20px top-90px">
-    <img width="300" src="/images/linkedin-qr.png" />
+    <img width="300" src="/images/about-me-qr.svg" />
 </div>
