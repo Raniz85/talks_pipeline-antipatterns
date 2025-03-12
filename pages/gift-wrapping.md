@@ -49,12 +49,12 @@ attribution: Kira ouf der Heide via Unsplash
 
 ```yaml
 # Build project
-- run: |
-    cargo build \
-        --target release \
-        --workspace \
-        --all-features \
-        --jobs 8
+- run: >
+    cargo build
+    --target release
+    --workspace
+    --all-features
+    --jobs 8
 ```
 
 </div>

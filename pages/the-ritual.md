@@ -18,7 +18,7 @@ attribution: Chinh Le Duc via Unsplash
 block-beta
     bs("Backend\nsetup") bl("Backend\nlint") bt("Backend\nTests")
     fs("Frontend\nsetup") fl("Frontent\nlint") ft("Frontend\ntests")
-    i("Integration\ntests") a("Publish\nartifact")
+    i("Integration\ntests")
 ```
 
 <div style="height: 2em">
@@ -30,7 +30,7 @@ block-beta
 block-beta
     bs("Backend\nsetup") bl("Backend\nlint") bt("Backend\nTests")
     fs("Frontend\nsetup") fl("Frontent\nlint") ft("Frontend\ntests")
-    i("Integration\ntests") a("Publish\nartifact")
+    i("Integration\ntests")
 ```
 
 </div>
@@ -43,10 +43,45 @@ block-beta
 block-beta
     bs("Backend\nsetup") bl("Backend\nlint") bt("Backend\nTests")
     fs("Frontend\nsetup") fl("Frontent\nlint") ft("Frontend\ntests")
-    i("Integration\ntests") a("Publish\nartifact")
+    i("Integration\ntests")
 ```
 
 </div>
+
+---
+
+# Antipattern #1: The Ritual
+
+## PR
+```mermaid { theme: 'forest' }
+block-beta
+    bs("Backend\nsetup") bl("Backend\nlint") bt("Backend\nTests")
+    fs("Frontend\nsetup") fl("Frontent\nlint") ft("Frontend\ntests")
+    i("Integration\ntests") a("Publish\nartifact")
+```
+
+<div style="height: 2em">
+</div>
+
+## Merge (main)
+```mermaid { theme: 'forest' }
+block-beta
+    bs("Backend\nsetup") bl("Backend\nlint") bt("Backend\nTests")
+    fs("Frontend\nsetup") fl("Frontent\nlint") ft("Frontend\ntests")
+    i("Integration\ntests") a("Publish\nartifact")
+```
+
+<div style="height: 2em">
+</div>
+
+## Nightly
+```mermaid { theme: 'forest' }
+block-beta
+    bs("Backend\nsetup") bl("Backend\nlint") bt("Backend\nTests")
+    fs("Frontend\nsetup") fl("Frontent\nlint") ft("Frontend\ntests")
+    i("Integration\ntests") a("Publish\nartifact")
+```
+
 
 ---
 

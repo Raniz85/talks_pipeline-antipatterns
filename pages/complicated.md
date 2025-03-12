@@ -5,7 +5,7 @@ background: /images/complicated.webp
 <AntiPattern :num="6" />
 
 # It's complicated
-## The Pipeline is software project of its own
+## The Pipeline is its own software project
 
 ---
 
@@ -52,7 +52,57 @@ _pipeline.xml_
 
 ---
 
-# Pattern #5: Scripted pipeline
+# Pattern #5: Composable pipeline library
+
+```yaml
+jobs:
+  build_rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+    
+      - uses: factor10/actions/compile-rust@v1.2
+        
+      - uses: factor10/actions/test-rust@v1.2
+      
+      - uses: factor10/actions/publish-artifact@v1.2
+        with:
+          path: target/release/auth-server
+```
+
+---
+
+# Pattern #5: Composable pipeline library
+
+```yaml
+jobs:
+  build_rust:
+    uses: factor10/workflows/rust-workflow@v2.3
+    with:
+      artifact_path: target/release/auth-server
+```
+
+---
+layout: cover
+background: /images/entangled.jpg
+attribution: Leo Bayard via Unsplash
+---
+<AntiPattern :num="6.5" />
+
+# Entangled
+## How do we get out of here?
+
+<!--
+
+Put all logic in your build system makes for difficult migrations
+
+GitHub/GitLab/Atlassian/Azure DevOps looks good now - so did Jenkins back in the day
+
+-->
+
+---
+
+# Pattern #6: Scripted pipeline
 
 ```yaml
 name: PR Checks
@@ -80,7 +130,7 @@ jobs:
 
 ---
 
-# Pattern #5: Scripted pipeline
+# Pattern #6: Scripted pipeline
 
 ```makefile
 init:

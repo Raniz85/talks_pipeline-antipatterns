@@ -35,13 +35,6 @@ Coding Architect @ factor10
 
 ---
 layout: cover
-background: /images/waiting.jpg
-attribution: Priscilla Du Preez via Unsplash
-dim: false
----
-
----
-layout: cover
 background: /images/frustrated.jpg
 attribution: Yogendra Singh via Unsplash
 dim: false
@@ -49,8 +42,22 @@ dim: false
 
 ---
 layout: cover
+background: /images/waiting.jpg
+attribution: Priscilla Du Preez via Unsplash
+dim: false
+---
+
+---
+layout: cover
 background: /images/climate.jpg
 attribution: Markus Spiske via Unsplash
+dim: false
+---
+
+---
+layout: cover
+background: /images/elephant.jpg
+attribution: Felix M. Dom via Unsplash
 dim: false
 ---
 

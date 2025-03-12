@@ -1,9 +1,13 @@
 :root {
   --slidev-theme-primary: #000000;
   --slidev-theme-headings: #289b2e;
+  --slidev-theme-background: #ffffff;
 }
 
 .slidev-layout {
+  background: var(--slidev-theme-background);
+  color: var(--slidev-theme-primary);
+
   h1, h2 {
     color: var(--slidev-theme-headings);
   }

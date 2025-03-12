@@ -19,5 +19,6 @@
     "@slidev/cli@0.48.8": {
       "unplugged": true
     }
-  }
+  },
+  "packageManager": "yarn@4.7.0"
 }
