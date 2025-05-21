@@ -12,10 +12,10 @@ attribution: Jainath Ponnala via Unsplash
 
 # Raniz' rules-of-thumb for build agent sizing
 
-1. The build agent should be at least as powerful as the least powerful developer machine.
-2. Ideally, the build agent should be at least as powerful as the most powerful developer machine.
-3. If the build fails because of a lack of resources: beef up the build agent.
-4. If the available build agent configurations aren't sufficient: roll your own.
+1. If the build is slower on the build agents than on developer machines: beef up the build agents.
+1. If the build fails because of a lack of resources: beef up the build agents.
+1. If you have issues with queue times, get more servers
+1. If the available build agent configurations aren't sufficient: roll your own.
 
 ---
 layout: two-columns
