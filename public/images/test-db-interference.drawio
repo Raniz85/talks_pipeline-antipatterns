@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.6">
+  <diagram name="Page-1" id="qd90vg7wDHwXDk65irhI">
+    <mxGraphModel dx="1561" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-4" value="test database server" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="800" y="200" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="800" y="200" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-8" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
+          <mxGeometry x="940" y="350" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-9" value="&lt;div&gt;integration_test&lt;/div&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
+          <mxGeometry x="850" y="320" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-10" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
+          <mxGeometry x="960" y="240" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-15" value="Build automation servers" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" y="141.86" width="260" height="348.14" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-14" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.server_farm" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-13" value="job 1" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#00188D;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.play_gear" vertex="1" parent="1">
+          <mxGeometry x="463" y="170.00359307359307" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" edge="1" parent="1" source="AqxYJCSFkwcxeiq9YJsx-2" target="AqxYJCSFkwcxeiq9YJsx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-2" value="&lt;div&gt;job 3&lt;/div&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#00188D;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.play_gear" vertex="1" parent="1">
+          <mxGeometry x="540" y="265.00190476190477" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-12" value="job 2" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#00188D;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.play_gear" vertex="1" parent="1">
+          <mxGeometry x="463" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AqxYJCSFkwcxeiq9YJsx-13" target="AqxYJCSFkwcxeiq9YJsx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AqxYJCSFkwcxeiq9YJsx-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AqxYJCSFkwcxeiq9YJsx-12" target="AqxYJCSFkwcxeiq9YJsx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
