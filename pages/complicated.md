@@ -102,6 +102,15 @@ GitHub/GitLab/Atlassian/Azure DevOps looks good now - so did Jenkins back in the
 
 ---
 
+# Antipattern #6.5: Entangled
+
+```shellsession
+$ cat .github/**/*.yaml | wc -l
+12858
+```
+
+---
+
 # Pattern #6: Scripted pipeline
 
 ```yaml
